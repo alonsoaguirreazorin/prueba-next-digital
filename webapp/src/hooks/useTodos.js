@@ -12,7 +12,7 @@ const useTodos = (idUsuario) => {
     obtenerTodos();
   }, [idUsuario]);
 
-  return todos;
+  return [todos, setTodos];
 };
 
 export default useTodos;
