@@ -1,0 +1,26 @@
+.usuarios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .usuario-card {
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 200px;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+  
+  .usuario-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .usuario-link {
+    text-decoration: none;
+    color: #000;
+  }
+  
